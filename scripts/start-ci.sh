@@ -15,7 +15,6 @@ easylist=(
 hosts=(
   "https://raw.githubusercontent.com/neoFelhz/neohosts/gh-pages/full/hosts.txt"
   "https://raw.githubusercontent.com/jdlingyu/ad-wars/master/hosts"
-  "https://www.malwaredomainlist.com/hostslist/hosts.txt"
 )
 
 strict_hosts=(
@@ -38,6 +37,9 @@ cp ./origin-files/some-else.txt ./origin-files/dead-hosts444.txt
 
 curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list \
  | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' >./origin-files/hosts999.txt
+curl --connect-timeout 60 -s -o - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list \
+ | grep -F 'DOMAIN-SUFFIX,' | sed 's/DOMAIN-SUFFIX,/127.0.0.1 /g' >./origin-files/hosts998.txt
+
 
 for i in "${!easylist[@]}"
 do

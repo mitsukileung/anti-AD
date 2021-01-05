@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202007251932
+! Version: 202101021238
 ! Title: CJX's Annoyance List
-! Last modified: 2020/07/25 19:32 +0800
+! Last modified: 2021/01/02 12:38 +0800
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/cjx82630/cjxlist
 !
@@ -29,6 +29,7 @@
 /z.zolapp.
 =Ad_ZPlusGoods&
 !------------------------General element hiding rules-------------------------!
+##img[src*=".duoduose.info/"][width="450"]
 ###doyoo_mon_mask
 ###doyoo_monitor
 ##.siteAnn1
@@ -163,7 +164,6 @@
 ||gtimg.com/pingjs/ext2020/dc2017/dist/m_tips/tips.js
 ||gz-chengkao.com/js/duo.js
 ||hahamx.cn/images/banner/
-||hanjutv.com/public/js/layer/layer.js
 ||hao123img.com/v4/MB/xU/jy/VY/YX/MBxUjyVYYX.js
 ||heiguang.com/_r/2015/js/hrBottomBar.
 ||hexun.com/2016/pc/618.swf
@@ -406,7 +406,84 @@
 ||yizhibo.com/special/h5corner.html
 ||feedou.com/nzq/style/pc/js/zt_bottom.js
 ||66zhuang.com/public_2017/js/count-gou.js
+||xuexila.com^*-xxl.js
+||sogoucdn.com/translate/ssr/static/img/banner-
+||cls.cn/v2/web/ad?
+||aisixiang.com/images/*-20
+||yiihuu.com/assets/common/yh/js/yh.ad.
+||guokr.com/apis/flowingboard/item/guokrapp_
+||csdnimg.cn/common/redpack/redpack.js
+||w3cschool.cn/index/*Advert
+||sinaimg.cn/news/diversion/index2/static/js/index.
+||sinaimg.cn^*/pushDiversion*.js
+||msstatic.com/huya/main3/widget/DiyActLayer/DiyActLayer_*.js
+||iviewui.com/v1/*?name=
+||sinaimg.cn/news/article/article_qcode
+||niuacc.com/static/common/js/145.js
+||yyetss.com/static/modal.js
+||pcauto.com.cn/zt/*_dialog/cjx-pc-half_
+||thepaper.cn/bottomBanner_
 !------------------------Specific element hiding rules------------------------!
+baidu.com##.desktop-guide
+bilibili.com##.video-page-game-card
+ldmnq.com##.dialog-game
+hupu.com###game-center-entrance-container
+hupu.com##DIV[class^="game-center-"]
+sina.cn###j_toTop ~ .fl_suspension_template
+sina.cn##.zhidi
+sina.cn###j_gotop ~ .fl_suspension_template
+sina.cn##.sw_c0.fix_top
+niuacc.com##.masks
+niuacc.com##.yure
+niuacc.com##.botLm-container
+sina.com.cn##.fl_feedFous
+sina.com.cn##.tab_related_app_imglink
+nipic.com##.vip_show
+nipic.com##.vip_homeshow
+baidu.com##.guide-to-univer-app-root
+baidu.com##.pop-manager-view-containter
+wendu.com##.foot_adv
+wendu.com##.head-banner
+baidu.com##.search-box-wrapper + .pager-container
+baidu.com##.fufei-activity-bar
+360doc.com##.floatqrcode
+xueqiu.com##.widget__download-app
+123.com.cn##.bottom-ylink
+123.com.cn##.fixed-top
+douyu.com##.index-common-1-rrh
+chsi.com.cn##.zx-axvert
+xdf.cn##.popup-wrap
+sina.com.cn##.redPacketCont
+offcn.com###offcn_yx
+3dmgame.com##.modAD
+csdn.net###passportbox
+csdn.net##.login-mark
+21ic.com##.appxb
+csdn.net##.toolbar-advert
+cnitpm.com##.erweima
+iviewui.com##.ivu-alert
+sogou.com##.aside-qcode
+sogou.com##.trans-side-banner
+gas.goodlife.tw###widgets
+mati.hk##.banner_middle
+720yun.com##DIV[class^="Ads_ads_"]
+baidu.com###copyright + .banner
+whcykj.cn###BDBridgeInviteWrap
+whcykj.cn###InviteContainerl
+whcykj.cn##.swt_bottom
+qiaobutang.com##.fixed-footer-wrap
+fanyi.baidu.com###app-read
+pan.baidu.com##.phone-banner
+epubee.com##.reader-to-vip
+news.163.com##.mod_netes_origina
+news.163.com##.mod_pageh5
+egame.qq.com##.lurk-dialog
+egame.qq.com##.pop-widget
+16rd.com###diy_bbs_list_right IMG
+16rd.com###quick_pub_form
+16rd.com##.c1c2_b1b2_adbx
+16rd.com###diy_ad_article_right IMG
+ifeng.com##.slideImg-lGG7Uta-
 yizhibo.com###J_reg_guide
 poedb.tw#?#div[id]:-abp-contains(ad blocker)
 qq.com##.notice[class^="jsx-"]
@@ -502,7 +579,6 @@ znds.com###diy_mobanbus_view_right2
 meijuxingqiu.com##.fixed-bottom-bar
 iqiyi.com##.m-hotWords-bottom
 3dmgame.com##A[href^="http://web.3dmgame.com/h5/game?"]
-hanjutv.com###widget-weixin
 ifeng.com##DIV[class^="enquiry_bottom"]
 ifeng.com##div[class^="bottom_box"]
 ifeng.com##div[class^="bottomSlide"]
@@ -850,7 +926,6 @@ neihanshequ.com###pageletBottomBanner
 neihanshequ.com###pageletTopBanner
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com###pagelet_frs-aside\/pagelet\/hottopic
 kaopu001.com###pokemon
-meituan.com###pop
 52wmb.com###popContent
 wbiao.cn###popupImgCorner
 acfun.cn###prompt-box
@@ -1041,7 +1116,6 @@ nen.com.cn##.for3gagzy
 tmall.com##.fp-lazyload-con[data-path*="/floor-ad-"]
 it168.com##.fu1020_box
 eastmoney.com##.fund-pop
-hanjutv.com##.ggw_fr
 55haitao.com##.global-dialog
 1kkk.com,dm5.com##.guide
 baixing.com##.guide-video-app
@@ -1134,7 +1208,6 @@ tianya.cn##.qhb-Box
 focus.cn##.qhb-fixed
 wasu.cn##.qp
 kuwo.cn##.qr_wrapper
-qihoo.com##.qrcode
 163.com##.quickmark
 to8to.com##.quoted-outside
 m.youku.com##.recommend
@@ -1254,7 +1327,7 @@ m.babytree.com##script + a[class]
 @@||th7.cn/sanda2015/css/ads.js
 @@||lancdn.com/landian/public/js/ads.js
 @@||qbox.me/static/js/ads.js$domain=linux.cn
-@@/adview_pic_$domain=doutula.com|fastadmin.net|xclient.info
+@@/adview_pic_$domain=doutula.com|fastadmin.net|toolfk.com|xclient.info
 @@||fm.ipinyou.$domain=ipinyou.com.cn
 @@||fm.p0y.cn^$domain=ipinyou.com.cn
 !--------------------------------Tracking Systems-----------------------------!
@@ -1272,6 +1345,7 @@ m.babytree.com##script + a[class]
 /v.gif?logtype=
 /yesky/js/counter/*
 /zcool-analytics.js
+||pv.cheshi.com^
 ||tracking.kdnet.net^
 ||lnd.com.cn/sys/real_calc.js
 ||sogou.com/dr/p1.gif
@@ -1388,7 +1462,6 @@ m.babytree.com##script + a[class]
 ||gridsumdissector.cn/gs.gif?
 ||guahao.cn/blank.gif?
 ||hao123img.com/res/js/track.js
-||haostat.qihoo.com^
 ||hc360.com/js/module/common/logrecordservice.
 ||hd.sohu.com.cn^$object-subrequest
 ||hdslb.com/js/bfd.js
@@ -1530,6 +1603,7 @@ m.babytree.com##script + a[class]
 ||zhulang.com/zlpv.php
 ||zol.com.cn/cgimp/zc.js
 ! EasyPrivacy
+@@/transparent.gif?ray=$image,~third-party
 /__utm.gif
 /gen_204?$image,script
 /log.gif?
