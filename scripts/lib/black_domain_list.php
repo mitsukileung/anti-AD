@@ -292,7 +292,27 @@ return array(
     '92caijing.com' => array('92caijing.com'), //广告联盟
     'mm100.com' => array('mm100.com'), //广告联盟
     'juyoufan.net' => array('juyoufan.net'), //博彩类
-    'hpplay.cn' => array('hpplay.cn'), //广告下发
+    'hpplay.cn' => array(
+            'imdns.hpplay.cn',
+            'vipauth.hpplay.cn',
+            'sl.hpplay.cn',
+            'hotupgrade.hpplay.cn',
+            'tvapp.hpplay.cn',
+            'image.hpplay.cn',
+            'gslb.hpplay.cn',
+            'adeng.hpplay.cn',
+            'conf.hpplay.cn',
+            'adcdn.hpplay.cn',
+            'pin.hpplay.cn',
+            'rp.hpplay.cn',
+    ), //广告下发 #306
+    'hpplay.com.cn' => array( #306
+        'h5.hpplay.com.cn',
+        'cdn.hpplay.com.cn',
+    ),
+    'cibn.cc' => array( #306
+        'hpplay.cdn.cibn.cc',
+    ),
     'supersonic.com' => array('logs.supersonic.com'), //交叉推广平台
     'advmob.cn' => array('advmob.cn'), //交叉推广平台
     'adnexus.mobi' => array('adnexus.mobi'), //广告平台
@@ -882,6 +902,14 @@ return array(
    'playcvn.com' => array( #299
         'playcvn.com',
    ),
+   'mgtv.com' => array( #306
+        'da.mgtv.com',
+        'video.da.mgtv.com',
+   ),
+   'wwads.cn' => array( #323
+        'wwads.cn',
+        'www.wwads.cn',
+   ),
     
     
     
@@ -1019,6 +1047,12 @@ return array(
     'tenddata.com.cn' => array('tenddata.com.cn', 'www.tenddata.com.cn'),
     'tenddata.net' => array('tenddata.net', 'www.tenddata.net'),
     'tengyuncloud.cn' => array('tengyuncloud.cn', 'www.tengyuncloud.cn'),
+    'tendata.cn' => array('tendata.cn', 'www.tendata.cn'),
+    'tendata.net' => array('tendata.net', 'www.tendata.net'),
+    'tendata.com' => array('tendata.com', 'www.tendata.com'),
+    'talkingdata.net' => array('talkingdata.net', 'www.talkingdata.net'),
+    'appcpa.co' => array('appcpa.co', 'www.appcpa.co'),
+    
     'udrig.com' => array('udrig.com', 'www.udrig.com'),
     'xdrig.com' => array('xdrig.com', 'www.xdrig.com'),
     'xuefenxi.com' => array('xuefenxi.com', 'www.xuefenxi.com'),
